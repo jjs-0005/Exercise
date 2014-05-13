@@ -1,4 +1,4 @@
-package jjs.java_seminar.exercise_20140513_03;
+package jp.co.jjs.java_seminar.exercise_20140513_03;
 
 public class Exercise5 {
 

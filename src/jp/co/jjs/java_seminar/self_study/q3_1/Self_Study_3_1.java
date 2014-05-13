@@ -1,10 +1,10 @@
-package jjs.java_seminar.exercise_20140513_04;
+package jp.co.jjs.java_seminar.self_study.q3_1;
 
-public class Exercise6 {
+public class Self_Study_3_1 {
 
     public static void main(String[] args) {
 
-        int n = 1;
+        int n = Integer.parseInt(args[0]);
 
         if(n % 2 == 0){
             System.out.println("偶数");
