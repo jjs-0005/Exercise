@@ -8,5 +8,11 @@ public class Book {
     String  genre;      //ジャンル
     boolean bookrental; //貸出状況
 
+    public Book(String bookname) {
+
+        this.bookname = bookname;
+
+    }
+
 
 }
