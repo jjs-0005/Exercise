@@ -7,6 +7,7 @@ public class HashSetExample {
     public static void main(String[] args) {
 
         HashSet<String> set = new HashSet<>();
+        //HashSet<Book> book = new HashSet<>();
 
         //追加
         set.add("aaa");
