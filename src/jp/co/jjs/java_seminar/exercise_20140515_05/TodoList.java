@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class TodoList {
 
-    ArrayList<Task> todolist = new ArrayList<>();
+    private ArrayList<Task> todolist = new ArrayList<>();
 
     public void add(Task task) {
         todolist.add(task);
@@ -14,8 +14,8 @@ public class TodoList {
     public void list() {
         for (Task task: todolist) {
             System.out.printf("%s%s\n",
-                    task.task,
-                    task.isdone ? "(DONE)": "");
+                    task.getTask(),
+                    task.isIsdone() ? "(DONE)": "");
         }
     }
 

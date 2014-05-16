@@ -2,25 +2,41 @@ package jp.co.jjs.java_seminar.exercise_20140515_05;
 
 public class Task {
 
-    String task;
-    boolean isdone;
+    private String task;
+    private boolean isdone;
 
 
     public Task(String task) {
 
-        this.task = task;
+        this.setTask(task);
 
 
     }
 
     public void isdone(){
 
-        isdone = true;
+        setIsdone(true);
     }
 
     @Override
     public String toString() {
-        return  task;
+        return  getTask();
+    }
+
+    public String getTask() {
+        return task;
+    }
+
+    public void setTask(String task) {
+        this.task = task;
+    }
+
+    public boolean isIsdone() {
+        return isdone;
+    }
+
+    public void setIsdone(boolean isdone) {
+        this.isdone = isdone;
     }
 
 
