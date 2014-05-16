@@ -1,0 +1,22 @@
+Self_Study_1_11_2 参照
+
+
+
+package jp.co.jjs.java_seminar.self_study.q1_11;
+
+public class Self_Study_1_11_2 {
+
+    public static void main(String[] args) {
+
+        int kyori = 3000; // 距離
+        int sokudo = 75;  // 速度
+        int jikan = 0;	  // 所要時間
+
+        jikan = kyori / sokudo; // 距離を速度で割り時間を求める
+
+        System.out.println(jikan + "時間"); //求めた時間を表示
+
+
+    }
+
+}
