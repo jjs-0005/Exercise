@@ -1,0 +1,4 @@
+<jsp:include page=include.jsp>
+
+誤った個所は、「page=include.jsp」イコールの後に「""」でinclude.jspが囲まれていない。
+二つ目は、最後は「>」ではなく「/>」のように記述する。
